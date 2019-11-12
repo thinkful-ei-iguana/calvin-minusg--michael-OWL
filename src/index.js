@@ -1,7 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import ParticipantsList from './ParticipantList';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import ParticipantList from "./ParticipantList";
+// import Participant from './Participant';
+import STORE from "./STORE";
 
-ReactDOM.render(<ParticipantsList />, document.getElementById('root'));
+console.log(STORE[0]);
 
+ReactDOM.render(
+  <ParticipantList participants={STORE} />,
+  document.getElementById("root")
+);
