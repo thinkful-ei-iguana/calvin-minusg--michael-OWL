@@ -1,10 +1,14 @@
 import React from "react";
+import "./ParticipantList.css";
 import Participant from "./Participant";
 
 export default function participantList(props) {
+  let newProps = props.participants.filter(
+    participant => participant.inSession === true
+  );
   return (
     <div className="participants-list">
-      {props.participants.map(participant => (
+      {newProps.map(participant => (
         <Participant
           key={participant.id}
           name={participant.name}

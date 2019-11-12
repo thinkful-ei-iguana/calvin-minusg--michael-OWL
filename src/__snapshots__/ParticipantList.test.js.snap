@@ -21,10 +21,10 @@ exports[`renders the UI as expected 1`] = `
         Koren Templeton
       </h6>
       <div
-        className={true}
+        className="onStage-true"
       />
       <div
-        className={true}
+        className="onStage-true"
       />
     </div>
   </div>
@@ -45,34 +45,10 @@ exports[`renders the UI as expected 1`] = `
         Caty Flucker
       </h6>
       <div
-        className={false}
+        className="onStage-false"
       />
       <div
-        className={true}
-      />
-    </div>
-  </div>
-  <div
-    className="session-participant"
-  >
-    <img
-      alt="Axe Kubicka"
-      className="user-avatar"
-      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
-    />
-    <div
-      className="participant-info"
-    >
-      <h6
-        className="participant-name"
-      >
-        Axe Kubicka
-      </h6>
-      <div
-        className={false}
-      />
-      <div
-        className={false}
+        className="onStage-true"
       />
     </div>
   </div>
@@ -93,10 +69,10 @@ exports[`renders the UI as expected 1`] = `
         Frank Runciman
       </h6>
       <div
-        className={false}
+        className="onStage-false"
       />
       <div
-        className={true}
+        className="onStage-true"
       />
     </div>
   </div>
@@ -117,10 +93,10 @@ exports[`renders the UI as expected 1`] = `
         Ashla Attwool
       </h6>
       <div
-        className={true}
+        className="onStage-true"
       />
       <div
-        className={true}
+        className="onStage-true"
       />
     </div>
   </div>

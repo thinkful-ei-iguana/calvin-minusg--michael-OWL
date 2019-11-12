@@ -18,10 +18,10 @@ exports[`renders the UI as expected 1`] = `
       Calvin Rosehart
     </h6>
     <div
-      className="true"
+      className="onStage-true"
     />
     <div
-      className="true"
+      className="onStage-true"
     />
   </div>
 </div>
