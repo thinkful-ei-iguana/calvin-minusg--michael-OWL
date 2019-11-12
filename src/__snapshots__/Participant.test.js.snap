@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="session-participant"
+>
+  <img
+    alt="Calvin Rosehart"
+    className="user-avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <div
+    className="participant-info"
+  >
+    <h6
+      className="participant-name"
+    >
+      Calvin Rosehart
+    </h6>
+    <div
+      className="participant-status participant-status__green"
+    >
+      true
+      true
+    </div>
+  </div>
+</div>
+`;
