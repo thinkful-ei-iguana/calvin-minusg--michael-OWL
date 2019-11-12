@@ -1,3 +1,4 @@
+import React from './React';
 
 <div className="side-bar side-bar_visible">
   <div className="messages">

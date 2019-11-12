@@ -1,4 +1,7 @@
 import React from 'react';
+import ParticipantList from './ParticipantList';
+import ChatLog from './ChatLog';
+import Stage from './Stage';
 import logo from './logo.svg';
 import './App.css';
 
