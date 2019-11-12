@@ -4,13 +4,13 @@ import Participant from './Participant';
 export default function participantList(props){
     return (
         <div className="participants-list">
-            {props.map((prop)=>
+            {props.participants.map((participant)=>
                 <Participant
-                   key = {prop.id}
-                   name = {prop.name}
-                   avatar = {prop.avatar}
-                   inSession = {prop.inSession}
-                   onStage = {prop.onStage}
+                   key = {participant.id}
+                   title = {participant.name}
+                   avatar = {participant.avatar}
+                   inSession = {participant.inSession}
+                   onStage = {participant.onStage}
                             />
             )}   
         </div>
