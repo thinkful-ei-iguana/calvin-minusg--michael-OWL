@@ -42,19 +42,18 @@ const participants = [
   }
 ];
 
-//
+//need to add logic to line 52 to toggle between onstage/insession if onstage is true.
 function participantList(){
 return (
     <div className="participants-list">
         <div className="session-participant">
             <div className="participant-info">
-                
+                <h6 className="participant-name">{participants.name}</h6>
+                <div className="participant-status participant-status__green">{participants.onStage}{participants.inSession}</div>
             </div>
         </div>
     </div>
-)
+);
 }
 
-export default {
-  participants
-}
+export default participantList();
