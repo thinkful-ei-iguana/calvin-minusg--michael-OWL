@@ -1,4 +1,5 @@
 import React from "react";
+import "./Stage.css";
 
 export default function stage(props) {
   let newProps = props.participants.filter(
@@ -7,7 +8,7 @@ export default function stage(props) {
   return (
     <div className="stage">
       {newProps.map(participant => (
-        <section key={participant.id}>
+        <section key={participant.id} className="userContainer">
           <div>
             <h6>{participant.name}</h6>
           </div>
