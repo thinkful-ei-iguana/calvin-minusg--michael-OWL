@@ -8,6 +8,7 @@ exports[`renders the UI as expected 1`] = `
     className="session-participant"
   >
     <img
+      alt="Koren Templeton"
       className="user-avatar"
       src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
     />
@@ -16,9 +17,14 @@ exports[`renders the UI as expected 1`] = `
     >
       <h6
         className="participant-name"
+      >
+        Koren Templeton
+      </h6>
+      <div
+        className={true}
       />
       <div
-        className="participant-status participant-status__green"
+        className={true}
       />
     </div>
   </div>
@@ -26,6 +32,7 @@ exports[`renders the UI as expected 1`] = `
     className="session-participant"
   >
     <img
+      alt="Caty Flucker"
       className="user-avatar"
       src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
     />
@@ -34,9 +41,14 @@ exports[`renders the UI as expected 1`] = `
     >
       <h6
         className="participant-name"
+      >
+        Caty Flucker
+      </h6>
+      <div
+        className={false}
       />
       <div
-        className="participant-status participant-status__green"
+        className={true}
       />
     </div>
   </div>
@@ -44,6 +56,7 @@ exports[`renders the UI as expected 1`] = `
     className="session-participant"
   >
     <img
+      alt="Axe Kubicka"
       className="user-avatar"
       src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
     />
@@ -52,9 +65,14 @@ exports[`renders the UI as expected 1`] = `
     >
       <h6
         className="participant-name"
+      >
+        Axe Kubicka
+      </h6>
+      <div
+        className={false}
       />
       <div
-        className="participant-status participant-status__green"
+        className={false}
       />
     </div>
   </div>
@@ -62,6 +80,7 @@ exports[`renders the UI as expected 1`] = `
     className="session-participant"
   >
     <img
+      alt="Frank Runciman"
       className="user-avatar"
       src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
     />
@@ -70,9 +89,14 @@ exports[`renders the UI as expected 1`] = `
     >
       <h6
         className="participant-name"
+      >
+        Frank Runciman
+      </h6>
+      <div
+        className={false}
       />
       <div
-        className="participant-status participant-status__green"
+        className={true}
       />
     </div>
   </div>
@@ -80,6 +104,7 @@ exports[`renders the UI as expected 1`] = `
     className="session-participant"
   >
     <img
+      alt="Ashla Attwool"
       className="user-avatar"
       src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
     />
@@ -88,9 +113,14 @@ exports[`renders the UI as expected 1`] = `
     >
       <h6
         className="participant-name"
+      >
+        Ashla Attwool
+      </h6>
+      <div
+        className={true}
       />
       <div
-        className="participant-status participant-status__green"
+        className={true}
       />
     </div>
   </div>

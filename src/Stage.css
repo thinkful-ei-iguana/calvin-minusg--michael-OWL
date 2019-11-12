@@ -1,0 +1,12 @@
+.stage {
+  border: solid red 5px;
+  background-color: #1e2835;
+  color: #404853;
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 75px;
+  padding-top: 50px;
+  width: 60%;
+  float: right;
+}

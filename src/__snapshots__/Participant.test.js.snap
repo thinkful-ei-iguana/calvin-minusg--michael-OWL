@@ -18,11 +18,11 @@ exports[`renders the UI as expected 1`] = `
       Calvin Rosehart
     </h6>
     <div
-      className="participant-status participant-status__green"
-    >
-      true
-      true
-    </div>
+      className="true"
+    />
+    <div
+      className="true"
+    />
   </div>
 </div>
 `;
