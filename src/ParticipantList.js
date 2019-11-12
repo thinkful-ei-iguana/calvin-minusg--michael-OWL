@@ -42,6 +42,19 @@ const participants = [
   }
 ];
 
+//
+function participantList(){
+return (
+    <div className="participants-list">
+        <div className="session-participant">
+            <div className="participant-info">
+                
+            </div>
+        </div>
+    </div>
+)
+}
+
 export default {
   participants
 }
