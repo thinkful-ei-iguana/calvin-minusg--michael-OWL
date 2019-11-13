@@ -3,12 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // import ParticipantList from "./ParticipantList";
 // import Participant from './Participant';
-import Stage from "./Stage";
-import STORE from "./STORE";
+import App from './App';
 
-console.log(STORE[0]);
-
-ReactDOM.render(
-  <Stage participants={STORE} />,
-  document.getElementById("root")
-);
+ReactDOM.render (<App/>, document.getElementById("root"));
