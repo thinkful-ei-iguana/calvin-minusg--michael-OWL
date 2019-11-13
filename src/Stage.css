@@ -1,7 +1,7 @@
 .stage {
-  border: solid red 5px;
+  flex-wrap: wrap;
   background-color: #1e2835;
-  color: #404853;
+  color: #4c6fa0;
   margin: auto;
   padding-left: 200px;
   padding-right: 200px;
@@ -12,11 +12,13 @@
 }
 
 .avatar-on-stage {
-  margin: auto;
   width: 50px;
+  align-content: center;
+  clear: both;
 }
 
-.align-avatar {
-  justify-content: center;
+.userContainer {
   width: 50px;
+  color: white;
+  clear: both;
 }
